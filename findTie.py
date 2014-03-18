@@ -2,6 +2,10 @@ def findTie( tourneyteams ):
     """ Takes in rankings from filename(.csv) and returns list of schools
         and their ranks for the year tourneyteams(string, .csv)
         for category cat.
+        this python file requires a list of tournament teams from each year 
+        (surprisingly hard to find in a good format), 
+        and the statistics for each year for each category 
+        (found at http://www.ncaa.com/stats/basketball-men/d1)
     """
     import csv
     import sys
